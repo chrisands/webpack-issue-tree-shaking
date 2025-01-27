@@ -1,8 +1,5 @@
-import { createRoute } from './factory.js'
+import { createRoute } from "./factory.js";
 
-export const unused = 'hello world!';
+export const unused = "hello world!";
 
-export const unsedRoute = createRoute({
-    id: 'helo',
-    key: 'route',
-})
+export const unsedRoute = createRoute();

@@ -1,12 +1,12 @@
-import { defineConfig  } from "vite"
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  mode: 'production',
+  mode: "production",
   build: {
     rollupOptions: {
       input: {
-        main: './src/index.js'
-      }
-    }
-  }
-})
+        main: "./src/index.js",
+      },
+    },
+  },
+});
