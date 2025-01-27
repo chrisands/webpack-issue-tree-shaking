@@ -16,7 +16,7 @@ export function createRoute(options) {
 
 If we comment one of methods, webpack will tree shake them. However, it's worth noting that webpack does not add any `/*#__PURE__*/` [comments](https://terser.org/docs/miscellaneous/#annotations) either way. You can test this by disabling `optimization.minimize = false`. The guess is that terser also evaluates code and checks for unreachable code too.
 
-For comparison, there is vite config that does not have these issues
+For comparison, there is vite config and if we run `pnpm vite build` is won't have same issue.
 
 # Reproduce
 
